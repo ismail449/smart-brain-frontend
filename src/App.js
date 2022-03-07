@@ -43,8 +43,8 @@ function App() {
     setImageUrl(input);
     const raw = JSON.stringify({
       user_app_id: {
-        user_id: 'ihsw3w3dpfp6',
-        app_id: 'fb0a2b8774a0469f9f0622c5be83d40b',
+        user_id: 'USER_ID',
+        app_id: 'APP_ID',
       },
       inputs: [
         {
@@ -61,7 +61,7 @@ function App() {
       method: 'POST',
       headers: {
         Accept: 'application/json',
-        Authorization: 'Key 7682ad59e7f445e596b5fbaf6df70df0',
+        Authorization: 'Key KEY',
       },
       body: raw,
     };
